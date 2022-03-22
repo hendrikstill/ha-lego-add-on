@@ -3,7 +3,7 @@
 
 It is tested with Homeassistant Core Version `2022.3.6`.
 
-(!) Discalmer: This is mainly a personal setup which I want to share, in case some also needs this. Read and understand the (very little) code before you use it!
+:bangbang: Discalmer: This is mainly a personal setup which I want to share, in case some else also needs this. Read and understand the (very little) code before you use it!
 
 ## How to use
 
@@ -52,7 +52,7 @@ keyfile: privkey.pem
 As the certifcates are changed by the lego add-on at every certifcate renew, 
 the nginx server has to be restarted, to ensure the newest certificates are used.
 
-(!) Attention: This will to lead to a short downtime of the nginx service.
+:bangbang: Attention: This will to lead to a short downtime of the nginx service.
 
 ```yaml
 
